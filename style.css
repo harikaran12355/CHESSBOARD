@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #50f703;
+  /* height: 100vh;
+  width: auto; */
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#chess_board {
+  border: 1px solid black;
+}
+
+#chess_board td {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 52px;
+
+}
+
+span:hover{
+  transform: scale(1.5);
+}
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: #b89c00
+}
+
+.board-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
